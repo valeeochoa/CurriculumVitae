@@ -1,0 +1,63 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor {
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Asap Condensed', sans-serif;
+   */
+    max-width: 55%;
+    margin: 7% auto;
+    line-height: 200%; 
+   /* margin-bottom: 100px; 
+    */
+
+}
+#titulo{
+    margin-bottom: 0,5%;
+    font-size: 20px;
+	font-weight: 700;
+}
+.centrar{
+    /**lo uso solo para la foto de perfil y mi nombre*/
+   /* margin-top: 100px;*/
+    text-align: center;
+}
+.saltoLinea{
+    /*Para separar mas los temas*/
+    margin-top: 150px;
+}
+.menu{
+
+    position: fixed;
+    
+    
+    background-color: cadetblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    
+    text-align: center;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block; 
+}
+
+.menu li{
+    /*coloca el menu de forma horizontal y centra las palabras*/
+    text-align: center;
+    display:inline-block;
+}
+
+.menu li a:hover{
+    /*le aplica color si el mouse esta encima*/
+    background-color:darkcyan;
+}
